@@ -1,0 +1,12 @@
+<p>
+  portfolio works!
+</p>
+
+<ul>
+  <li *ngFor="let item of [{name:'ExchangeFund'},{name:'InteropFund'},{name:'KucoinFund'}]">
+    <a routerLinkActive="highlight" [routerLink]="[item.name]">{{item.name}}</a>
+  </li>
+</ul>
+
+<!-- This router outlet will only activate for child links -->
+<router-outlet></router-outlet>
