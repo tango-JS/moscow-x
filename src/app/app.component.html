@@ -1,14 +1,9 @@
-<nav>
-  <ul>
-    <li>
-      <a routerLinkActive="highlight" [routerLinkActiveOptions]="{exact: true}" routerLink="/">Home</a>
-    </li>
-    <li>
-      <a routerLinkActive="highlight" routerLink="/portfolio">Portfolio</a>
-    </li>
-    <li>
-      <a routerLinkActive="highlight" routerLink="/profile">Profile</a>
-    </li>
-  </ul>
+<nav class="nav-wrapper">
+  <div class="nav-btn-wrapper">
+    <a class="nav-btn" routerLinkActive="highlight" [routerLinkActiveOptions]="{exact: true}" routerLink="/">Home</a>
+    <a class="nav-btn" routerLinkActive="highlight" routerLink="/portfolio">Portfolio</a>
+    <a class="nav-btn" routerLinkActive="highlight" routerLink="/profile">Profile</a>
+  </div>
 </nav>
+
 <router-outlet></router-outlet>

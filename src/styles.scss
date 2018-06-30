@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+    --nav-height: 70px;
+}
+
+main {
+    background: #f7f7f7;
+    height: calc(100% - var(--nav-height));
+}
