@@ -2,6 +2,8 @@
 
 Crypto Portfolio
 
+Open source project to showcase the power of Angular 6 | RxJS | NodeJS | Firebase
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Development server
